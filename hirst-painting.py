@@ -23,8 +23,8 @@ myturtle.penup()
 myturtle.goto(-325,-325)
 
 
-for i in range(0,9):
-    for j in range(0,9):
+for i in range(0,10):
+    for j in range(0,10):
         myturtle.dot(20, choice(mycolor))
         myturtle.setx(myturtle.position()[0]+50)
     myturtle.goto(-325, myturtle.position()[1] + 50)
